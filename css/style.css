@@ -84,7 +84,6 @@ aside {
 .profile-username:after {
   display: block;
   content: "@username";
-  font-size: 15px;
   color: rgb(105, 104, 104);
 }
 .dots {
@@ -184,7 +183,6 @@ textarea:focus {
 }
 
 .tweet__author-name {
-  font-size: 15px;
   font-weight: 700;
   color: #14171a;
   margin-right: 5px;
@@ -192,12 +190,10 @@ textarea:focus {
 
 .tweet__author-slug {
   color: #5b7083;
-  font-size: 15px;
 }
 
 .tweet__publish-time {
   margin-left: 5px;
-  color: #657786;
 }
 
 .tweet__image {
@@ -233,14 +229,13 @@ textarea:focus {
 .comment:hover {
   color: #53bbff;
 }
-/* right  */
+/* right  sidebar */
 .right-sidebar {
   width: 30%;
   margin-left: 25px;
 }
 .right-sidebar-search {
   width: 100%;
-
   margin-bottom: 25px;
 }
 .right-sidebar-search i {
@@ -292,11 +287,9 @@ textarea:focus {
 .trends-for-you__meta-information {
   font-size: 13px;
   font-weight: 300;
-  color: #657786;
 }
 
 .trends-for-you__trend-name {
-  font-size: 15px;
   color: #14171a;
   font-weight: bold;
   margin-bottom: 5px;
@@ -325,10 +318,6 @@ textarea:focus {
   margin-right: 10px;
 }
 
-.who-to-follow__author-slug {
-  color: #657786;
-  font-size: 15px;
-}
 .who-to-follow__button {
   border-radius: 40px;
   border: 1px solid #ccc;
@@ -348,4 +337,16 @@ textarea:focus {
 .right-sidebar-search input,
 .trends-for-you {
   background-color: #eff3f4;
+}
+
+.tweet__publish-time,
+.trends-for-you__meta-information,
+.who-to-follow__author-slug {
+  color: #657786;
+}
+.profile-username:after,
+.tweet__author-name,
+.tweet__author-slug,
+.trends-for-you__trend-name {
+  font-size: 15px;
 }
