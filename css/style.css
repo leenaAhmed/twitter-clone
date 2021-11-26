@@ -222,3 +222,89 @@ textarea:focus {
   border-radius: 15px;
   margin-top: 20px;
 }
+/* right  */
+.right-sidebar {
+  width: 30%;
+}
+.right-sidebar-search {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.right-sidebar-search input {
+  width: 100%;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  background-color: #eff3f4;
+  padding: 15px;
+}
+
+.right-sidebar-search input:focus {
+  border: 1px solid rgb(25, 161, 214);
+  outline: none;
+}
+
+.trends-for-you {
+  border-radius: 15px;
+  background: #eff3f49c;
+  margin-bottom: 15px;
+}
+
+.trends-for-you__block {
+  padding: 10px 15px;
+}
+.trends-for-you a {
+  color: rgb(25, 161, 214);
+  padding: 25px;
+}
+.trends-for-you__block:hover {
+  background: #eff3f4;
+}
+
+.trends-for-you__heading {
+  font-size: 19px;
+  font-weight: bold;
+  color: #14171a;
+}
+
+.trends-for-you__meta-information {
+  font-size: 13px;
+  font-weight: 300;
+  color: #657786;
+}
+
+.trends-for-you__trend-name {
+  font-size: 15px;
+  color: #14171a;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+
+/* follow */
+.who-to-follow {
+  background: #f5f8fa;
+  border-radius: 15px;
+}
+
+.who-to-follow__block {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.who-to-follow__block:last-child {
+  border-bottom: none;
+}
+
+.who-to-follow__author-logo {
+  width: 49px;
+  height: 49px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.who-to-follow__author-slug {
+  color: #657786;
+  font-size: 15px;
+}
