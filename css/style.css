@@ -17,6 +17,10 @@ ul {
 .clearfix {
   clear: both;
 }
+a {
+  color: rgb(25, 161, 214);
+  padding: 25px;
+}
 /* side */
 aside {
   margin: 14px;
@@ -171,15 +175,6 @@ textarea:focus {
   cursor: pointer;
 }
 
-.tweets a {
-  color: #1b94e0;
-  text-decoration: none;
-}
-
-.tweets a:hover {
-  text-decoration: underline;
-}
-
 .tweet__author-logo {
   width: 49px;
   height: 49px;
@@ -247,14 +242,11 @@ textarea:focus {
   border-radius: 15px;
   background: #eff3f49c;
   margin-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .trends-for-you__block {
   padding: 10px 15px;
-}
-.trends-for-you a {
-  color: rgb(25, 161, 214);
-  padding: 25px;
 }
 .trends-for-you__block:hover {
   background: #eff3f4;
@@ -263,6 +255,7 @@ textarea:focus {
 .trends-for-you__heading {
   font-size: 19px;
   font-weight: bold;
+  padding: 15px;
   color: #14171a;
 }
 
@@ -284,19 +277,19 @@ textarea:focus {
 .who-to-follow {
   background: #f5f8fa;
   border-radius: 15px;
+  padding-bottom: 10px;
 }
-
+.who-to-follow__heading {
+  padding: 15px;
+}
 .who-to-follow__block {
   padding: 10px 15px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e6ecf0;
 }
-
-.who-to-follow__block:last-child {
-  border-bottom: none;
+.who-to-follow__block:hover {
+  background: #eff3f4;
 }
-
 .who-to-follow__author-logo {
   width: 49px;
   height: 49px;
@@ -307,4 +300,13 @@ textarea:focus {
 .who-to-follow__author-slug {
   color: #657786;
   font-size: 15px;
+}
+.who-to-follow__button {
+  border-radius: 40px;
+  border: 1px solid #ccc;
+  padding: 10px 30px;
+  background-color: #14171a;
+  color: #fff;
+  float: right;
+  margin-left: 80px;
 }
