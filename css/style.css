@@ -217,6 +217,25 @@ textarea:focus {
   border-radius: 15px;
   margin-top: 20px;
 }
+.tweet__reaction {
+  padding-top: 12px;
+}
+.tweet__reaction span:first-child {
+  padding-left: 0;
+}
+.tweet__reaction span {
+  padding-left: 24%;
+}
+.tweet__reaction .retweet:hover {
+  color: green;
+}
+.heart:hover {
+  color: red;
+}
+.share:hover,
+.comment:hover {
+  color: #53bbff;
+}
 /* right  */
 .right-sidebar {
   width: 30%;
