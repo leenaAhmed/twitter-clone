@@ -8,7 +8,7 @@
 }
 .container {
   display: flex;
-  width: 84%;
+  width: 86%;
   margin: 0 auto;
 }
 ul {
@@ -239,6 +239,7 @@ textarea:focus {
 /* right  */
 .right-sidebar {
   width: 30%;
+  margin-left: 25px;
 }
 .right-sidebar-search {
   width: 100%;
@@ -251,7 +252,7 @@ textarea:focus {
 .right-sidebar-search input {
   width: 100%;
   border-radius: 35px;
-  background-image: url(../images/free-search.png);
+  background-image: url("../images/free-search.png");
   background-size: 18px 18px;
   background-position: 7% center;
   background-repeat: no-repeat;
@@ -267,7 +268,7 @@ textarea:focus {
   border: 1px solid rgb(25, 161, 214);
   outline: none;
 }
-
+/* trands */
 .trends-for-you {
   border-radius: 15px;
   background: #eff3f49c;
@@ -287,6 +288,13 @@ textarea:focus {
   font-weight: bold;
   padding: 15px;
   color: #14171a;
+}
+
+.trends-for-you__block img {
+  width: 30%;
+  border-radius: 10px;
+  float: right;
+  margin: 4px;
 }
 
 .trends-for-you__meta-information {
