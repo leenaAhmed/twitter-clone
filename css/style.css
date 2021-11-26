@@ -288,7 +288,7 @@ textarea:focus {
   color: #14171a;
 }
 
-.trends-for-you__block img {
+.trends-for-you__trend-name img {
   width: 30%;
   border-radius: 10px;
   float: right;
