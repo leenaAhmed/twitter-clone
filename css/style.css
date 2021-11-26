@@ -254,7 +254,6 @@ textarea:focus {
   background-position: 7% center;
   background-repeat: no-repeat;
   border: 1px solid rgba(255, 255, 255, 0);
-  background-color: #eff3f4;
   padding: 15px;
 }
 [placeholder="Search Twitter"] {
@@ -268,16 +267,12 @@ textarea:focus {
 /* trands */
 .trends-for-you {
   border-radius: 15px;
-  background: #eff3f49c;
   margin-bottom: 15px;
   padding-bottom: 10px;
 }
 
 .trends-for-you__block {
   padding: 10px 15px;
-}
-.trends-for-you__block:hover {
-  background: #eff3f4;
 }
 
 .trends-for-you__heading {
@@ -322,9 +317,7 @@ textarea:focus {
   display: flex;
   align-items: center;
 }
-.who-to-follow__block:hover {
-  background: #eff3f4;
-}
+
 .who-to-follow__author-logo {
   width: 49px;
   height: 49px;
@@ -347,3 +340,12 @@ textarea:focus {
 }
 
 /* repeating style  */
+.who-to-follow__block:hover,
+.trends-for-you__block:hover {
+  background: #eff3f4;
+}
+
+.right-sidebar-search input,
+.trends-for-you {
+  background-color: #eff3f4;
+}
