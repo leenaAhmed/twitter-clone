@@ -158,7 +158,7 @@ textarea:focus {
   font-size: 20px;
 }
 .post-reaction span:hover {
-  background-color: #53baff60;
+  background-color: #53baff36;
   padding: 10px;
   border-radius: 50%;
 }
@@ -242,14 +242,25 @@ textarea:focus {
 }
 .right-sidebar-search {
   width: 100%;
+
   margin-bottom: 25px;
+}
+.right-sidebar-search i {
+  color: rgb(100, 16, 16);
 }
 .right-sidebar-search input {
   width: 100%;
   border-radius: 35px;
+  background-image: url(../images/free-search.png);
+  background-size: 18px 18px;
+  background-position: 7% center;
+  background-repeat: no-repeat;
   border: 1px solid rgba(255, 255, 255, 0);
   background-color: #eff3f4;
   padding: 15px;
+}
+[placeholder="Search Twitter"] {
+  text-align: center;
 }
 
 .right-sidebar-search input:focus {
