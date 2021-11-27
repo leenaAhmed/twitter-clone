@@ -25,6 +25,10 @@ a {
 aside {
   margin: 14px;
 }
+.left-sidebar {
+  position: sticky;
+  top: 0;
+}
 .left-sidebar .brand {
   width: 50px;
   padding-left: 20px;
@@ -238,9 +242,14 @@ textarea:focus {
 .right-sidebar {
   width: 30%;
   margin-left: 25px;
+  margin-top: 0px;
 }
 .right-sidebar-search {
+  position: sticky;
+  margin-top: 0px;
+  top: 0;
   width: 100%;
+  background-color: #fff;
   margin-bottom: 25px;
 }
 .right-sidebar-search i {
