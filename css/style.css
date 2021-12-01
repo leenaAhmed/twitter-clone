@@ -47,7 +47,6 @@ a {
 .sidebar-menu-item-icon {
   height: 1.75rem;
   margin-right: 10px;
-  align-items: center;
 }
 .left-sidebar .sidebar-menu__item:hover {
   background-color: #e7e7e8;
@@ -210,6 +209,14 @@ textarea:focus {
 }
 .tweet__content {
   padding-top: 5px;
+}
+.tweet__content span {
+  color: #3ebdff;
+}
+.tweet__content-english {
+  direction: ltr;
+}
+.tweet__content-arabic {
   direction: rtl;
 }
 .tweet__content img {
